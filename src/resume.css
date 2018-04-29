@@ -61,6 +61,7 @@ i {
 .wrapper {
 	width: 960px;
 	margin: 40px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sidebar,
@@ -163,7 +164,7 @@ i {
 
 .main-content {
 	width: 65%;
-	padding-left: 20px;
+	padding: 0 0 20px 20px;
 }
 
 	.main-content .introduction,
@@ -172,11 +173,12 @@ i {
 	}
 
 	.main-content .about {
-		margin: 20px 0;
+		margin: 20px 20px 0 0;
 		padding: 15px 20px;
 		background-color: #ccc;
 	}
 
+	
 	.main-content .experiences .experience:not(:first-of-type) {
 		margin: 10px 0;
 	}
@@ -229,6 +231,7 @@ i {
 
 	.wrapper {
 		margin: 0;
+		box-shadow: none;
 	}
 
 	.main-content {
