@@ -1,380 +1,459 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="resume.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+      integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="resume.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-	 crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-</head>
+  <body class="resume">
+    <div class="wrapper">
+      <div class="sidebar">
+        <img src="profile_image.png" alt="Arthur Onoszko" />
+        <div class="section contact">
+          <h3>Contact</h3>
+          <table>
+            <tr>
+              <td>
+                <i class="fas fa-mobile-alt"></i>
+              </td>
+              <td>
+                <a href="tel:+46733030075">+46 73 303 00 75</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <i class="far fa-envelope"></i>
+              </td>
+              <td>
+                <a href="mailto:arthur.onoszko@gmail.com"
+                  >arthur.onoszko@gmail.com</a
+                >
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="section technical">
+          <h3>Technical Competence</h3>
+          <span class="grade">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <ul>
+            <li>C#.NET, Visual Studio</li>
+            <li>.NET Core</li>
+            <li>ASP.NET WebApi/MVC</li>
+            <li>Git</li>
+            <li>Azure</li>
+            <li>Objective-C, Swift, Xcode</li>
+            <li>Episerver CMS</li>
+            <li>Software architecture</li>
+          </ul>
+          <span class="grade">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </span>
+          <ul>
+            <li>TDD, Unit Testing</li>
+            <li>SOLID</li>
+            <li>Google Firebase</li>
+            <li>React</li>
+            <li>HTML5, CSS, SASS</li>
+            <li>AWS</li>
+          </ul>
+          <span class="grade">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </span>
+          <ul>
+            <li>Adobe Photoshop, Illustrator</li>
+          </ul>
+        </div>
+        <div class="section languages">
+          <h3>Languages</h3>
+          <table>
+            <tr>
+              <td>Swedish</td>
+              <td>
+                <span class="grade">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>English</td>
+              <td>
+                <span class="grade">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Polish</td>
+              <td>
+                <span class="grade">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="section education">
+          <h3>Education</h3>
+          <p class="small">2008-2013</p>
+          <h4>Master of Science @ KTH Stockholm</h4>
+          <p>Medical engineering - Focus IT</p>
+          <h5>Master Thesis @ Tobii Technology AB</h5>
 
-<body class="resume">
-	<div class="wrapper">
-		<div class="sidebar">
-			<img src="profile_image.png" alt="Arthur Onoszko" />
-			<div class="section contact">
-				<h3>Contact</h3>
-				<table>
-					<tr>
-						<td>
-							<i class="fas fa-mobile-alt"></i>
-						</td>
-						<td>
-							<a href="tel:+46733030075">+46 73 303 00 75</a>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<i class="far fa-envelope"></i>
-						</td>
-						<td>
-							<a href="mailto:arthur.onoszko@gmail.com">arthur.onoszko@gmail.com</a>
-						</td>
-					</tr>
-				</table>
-			</div>
-			<div class="section technical">
-				<h3>Technical Competence</h3>
-				<span class="grade">
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-				</span>
-				<ul>
-					<li>C#.NET, Visual Studio</li>
-					<li>.NET Core</li>
-					<li>ASP.NET WebApi/MVC</li>
-					<li>Git</li>
-					<li>Microsoft Azure</li>
-					<li>Objective-C, Swift, Xcode</li>
-					<li>Episerver CMS</li>
-					<li>Software architecture</li>
-				</ul>
-				<span class="grade">
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-					<i class="far fa-star"></i>
-				</span>
-				<ul>
-					<li>TDD, Unit Testing</li>
-					<li>SOLID</li>
-					<li>Angular</li>
-					<li>Google Firebase</li>
-					<li>React</li>
-					<li>HTML5, CSS, SASS</li>
-				</ul>
-				<span class="grade">
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-					<i class="far fa-star"></i>
-					<i class="far fa-star"></i>
-				</span>
-				<ul>
-					<li>Adobe Photoshop, Illustrator</li>
-				</ul>
-			</div>
-			<div class="section languages">
-				<h3>Languages</h3>
-				<table>
-					<tr>
-						<td>Swedish</td>
-						<td>
-							<span class="grade">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-							</span>
-						</td>
-					</tr>
-					<tr>
-						<td>English</td>
-						<td>
-							<span class="grade">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="far fa-star"></i>
-							</span>
-						</td>
-					</tr>
-					<tr>
-						<td>Polish</td>
-						<td>
-							<span class="grade">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="far fa-star"></i>
-								<i class="far fa-star"></i>
-							</span>
-						</td>
-					</tr>
-				</table>
-			</div>
-			<div class="section education">
-				<h3>Education</h3>
-				<p class="small">2008-2013</p>
-				<h4>Master of Science @ KTH Stockholm</h4>
-				<p>Medical engineering - Focus IT</p>
-				<h5>Master Thesis @ Tobii Technology AB</h5>
-
-				<p class="small">Creation of a virtual keyboard to increase the input rate of text to computer by eyes.</p>
-			</div>
-			<div class="section certifications">
-				<h3>Certifications</h3>
-				<ul>
-					<li>MCSD Web Applications</li>
-					<li>Service Oriented Architecture (SOA)</li>
-				</ul>
-			</div>
-
-		</div>
-		<div class="main-content">
-			<div class="introduction">
-				<h1>Arthur Onoszko</h1>
-				<h2>Software developer and entrepreneur</h2>
-			</div>
-			<div class="about">
-				<h3>About me</h3>
-				<p>
-					I was born and raised in Roma, Gotland, with my five siblings and parents. After high school, I moved to Stockholm to study
-					at KTH, where I found both system development and entrepreneurship to be very interesting.
-				</p>
-				<p>
-					Being able to grow both personally and professionaly is important to me, which I feel I can do by problem solving and innovation.
-					From January 2016, I work with my own business Lingo AB and Oak where the most time is spent on software development and architecture
-					but also with our business models, marketing and product development. Alongside working with Lingo and Oak, I am currently also working as a
-					subcontractor as a developer.
-				</p>
-				<p>
-					I am driven by designing software systems in such a way that they are easy to understand and maintainable. My belief is that that can be achieved by making use of good programming practices,
-					such as <b>SOLID</b>, <b>TDD</b> and <b>Clean code</b>. I like to both go in the details in a system by doing actual programming, and also designing and thinking about the architecture.
-				</p>
-				<p>
-					Other major interests are music, sports, gardening, cooking and photography.
-				</p>
-			</div>
-			<div class="experiences">
-				<h3>Experience</h3>
-				<div class="experience">
-					<h4>
-						Consultant, software developer
-						<span class="at-company">@</span> Epinova AB
-					</h4>
-					<p class="small">November 2019 - present</p>
-					<p>
-						Working in a team that maintains and develops a number of client applications.
-					</p>
-					<p>
-						<a href="https://www.epinova.se">www.epinova.se</a>
-					</p>
-					<div class="skills">
-						<span>Episerver CMS</span>
-						<span>.NET</span>
-						<span>Vue</span>
-						<span>SASS</span>
-						<span>Architecture</span>
-					</div>
-					<div class="experience project">
-						<strong>
-							Software developer
-							<span class="at-company">@</span> Episerver AB
-						</strong>
-						<p>
-							Developing a new version of www.episerver.com. Both backend and frontend.
-						</p>
-						<p>
-							<a href="https://www.episerver.com">www.episerver.com</a>
-						</p>
-						<div class="skills">
-							<span>Episerver CMS</span>
-							<span>Episerver Commerce</span>
-							<span>SASS</span>
-							<span>React</span>
-						</div>
-					</div>
-				</div>
-				<div class="experience">
-					<h4>
-						Co-founder, software developer
-						<span class="at-company">@</span> Oak - Guided Wine Tasting
-					</h4>
-					<p class="small">July 2017 - present</p>
-					<p>
-						Developing an app to enable high quality wine tastings at home, guided by an experienced sommelier.
-					</p>
-					<p>
-						<a href="http://www.oak-wine.com/">www.oak-wine.com</a>
-					</p>
-					<div class="skills">
-						<span>Swift</span>
-						<span>Xcode</span>
-						<span>VisualStudioTeamServices</span>
-						<span>Google Firebase</span>
-					</div>
-				</div>
-				<div class="experience">
-					<h4>
-						Co-founder, software developer
-						<span class="at-company">@</span> Lingo AB
-					</h4>
-					<p class="small">September 2015 - present</p>
-					<p>
-						Developing iPad games for children with speech disabilites.
-					</p>
-					<p>
-						<a href="http://lingostudios.com/">www.lingostudios.com</a>
-						<a href="http://vocaplay.com/">www.vocaplay.com</a>
-					</p>
-					<div class="skills">
-						<span>Unity3D</span>
-						<span>C#</span>
-						<span>VisualStudioTeamServices</span>
-						<span>Wordpress</span>
-						<span>Adobe Illustrator</span>
-						<span>Mirosoft Azure</span>
-					</div>
-				</div>
-				<div class="experience">
-					<h4>
-						Consultant, software developer, tech lead
-						<span class="at-company">@</span> Forefront Consulting AB
-					</h4>
-					<p class="small">October 2018 - November 2019</p>
-					<p>
-						Working in a team that maintains a number of client applications. Helping and guiding junior developers.
-					</p>
-					<p>
-						<a href="http://www.ffcg.se/">www.ffcg.se</a>
-					</p>
-					<div class="skills">
-						<span>Episerver CMS</span>
-						<span>.NET</span>
-						<span>.NET Core</span>
-						<span>Architecture</span>
-						<span>Tech Lead</span>
-					</div>
-				</div>
-				<div class="experience">
-					<h4>
-						Consultant, iOS Developer
-						<span class="at-company">@</span> Bontouch AB
-					</h4>
-					<p class="small">May 2017 - May 2018</p>
-					<p>
-						Maintenance of PostNord App (Sweden, Denmark, Finland, Norway).
-					</p>
-					<div class="skills">
-						<span>Objective-C</span>
-						<span>Swift</span>
-						<span>Xcode</span>
-						<span>Bitbucket</span>
-						<span>Jira</span>
-					</div>
-				</div>
-				<div class="experience">
-					<h4>
-						Software developer
-						<span class="at-company">@</span> Forefront Consulting AB
-					</h4>
-					<p class="small">September 2013 - April 2016</p>
-					<div class="experience project">
-						<strong>
-							Software developer
-							<span class="at-company">@</span> Confederation of Swedish Enterprise
-						</strong>
-						<p>
-							Developing a new web based portal to manage event invitations. Front-end and back-end.
-						</p>
-						<div class="skills">
-							<span>AngularJS</span>
-							<span>ASP.NET WebAPI</span>
-							<span>C#</span>
-							<span>SQL</span>
-						</div>
-					</div>
-					<div class="experience project">
-						<h4>
-							Software developer
-							<span class="at-company">@</span> LIF Service AB
-						</h4>
-						<p>
-							Developing a new external website and member portal. Front-end and back-end.
-						</p>
-						<div class="skills">
-							<span>Episerver 7+ CMS</span>
-							<span>HTML5</span>
-							<span>LESS</span>
-							<span>Target Process</span>
-							<span>C#</span>
-						</div>
-					</div>
-					<div class="experience project">
-						<h4>
-							Information architect, technical project manager
-							<span class="at-company">@</span> Teknikföretagen Sverige AB
-						</h4>
-						<p>
-							Developing a new web based inventory system. Lead a team of developers in China.
-						</p>
-						<div class="skills">
-							<span>Target Process</span>
-							<span>C#</span>
-						</div>
-					</div>
-					<div class="experience project">
-						<h4>
-							Technical project manager, QA, architect
-							<span class="at-company">@</span> Svensk Handel AB
-						</h4>
-						<p>
-							Developing a new web based booking system for meeting rooms and resources. Lead a team of developers in China.
-						</p>
-						<div class="skills">
-							<span>Target Process</span>
-							<span>C#</span>
-							<span>Exchange</span>
-						</div>
-					</div>
-					<div class="experience project">
-						<h4>
-							Software developer
-							<span class="at-company">@</span> Confederation of Swedish Enterprise AB
-						</h4>
-						<p>
-							Developing a new iOS application and Web API.
-						</p>
-						<div class="skills">
-							<span>Objective-C</span>
-							<span>Xcode</span>
-							<span>ASP.NET WebAPI</span>
-							<span>Target Process</span>
-						</div>
-					</div>
-
-				</div>
-				<div class="experience">
-					<h4>
-						Software developer
-						<span class="at-company">@</span> Skantze Konsult och Ledarskap AB
-					</h4>
-					<p class="small">February 2012 - April 2016</p>
-					<p>
-						Developing of Ingredienslexikon, a new smartphone application for individuals with food allergies.
-					</p>
-					<div class="skills">
-						<span>Objective-C</span>
-						<span>Xcode</span>
-						<span>Android</span>
-						<span>Eclipse</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</body>
-
+          <p class="small">
+            Creation of a virtual keyboard to increase the input rate of text to
+            computer by eyes.
+          </p>
+        </div>
+        <div class="section certifications">
+          <h3>Certifications</h3>
+          <ul>
+            <li>MCSD Web Applications</li>
+            <li>Service Oriented Architecture (SOA)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="introduction">
+          <h1>Arthur Onoszko</h1>
+          <h2>Software developer and entrepreneur</h2>
+        </div>
+        <div class="about">
+          <h3>About me</h3>
+          <p>
+            I was born and raised in Roma, Gotland, with my five siblings and
+            parents. After high school, I moved to Stockholm to study at KTH,
+            where I found both system development and entrepreneurship to be
+            very interesting.
+          </p>
+          <p>
+            Being able to grow both personally and professionaly is important to
+            me, which I feel I can do by problem solving and innovation. From
+            January 2016, I work with my own business Lingo AB and Oak where the
+            most time is spent on software development and architecture but also
+            with our business models, marketing and product development.
+            Alongside working with Lingo and Oak, I am currently also working as
+            a subcontractor as a developer.
+          </p>
+          <p>
+            I am driven by designing software systems in such a way that they
+            are easy to understand and maintainable. My belief is that that can
+            be achieved by making use of good programming practices, such as
+            <b>SOLID</b>, <b>TDD</b> and <b>Clean code</b>. I like to both go in
+            the details in a system by doing actual programming, and also
+            designing and thinking about the architecture.
+          </p>
+          <p>
+            Other major interests are music, sports, gardening, cooking and
+            photography.
+          </p>
+        </div>
+        <div class="experiences">
+          <h3>Experience</h3>
+          <div class="experience">
+            <h4>
+              Software developer
+              <span class="at-company">@</span> Leeroy
+            </h4>
+            <p class="small">March 2021 - present</p>
+            <p>
+              Developing applications for use by staff in restaurant: POS (iPad
+              app) and KDS (Kitchen Display system, web app/react native).
+            </p>
+            <p>
+              <a href="https://www.leeroy.se">www.leeroy.se</a>
+            </p>
+            <div class="skills">
+              <span>Swift</span>
+              <span>React</span>
+              <span>Progressive Web App</span>
+              <span>Java Spring</span>
+              <span>NodeJS</span>
+              <span>TypeScript</span>
+              <span>GraphQL</span>
+              <span>AWS</span>
+              <span>React Native</span>
+            </div>
+          </div>
+          <div class="experience">
+            <h4>
+              Consultant, software developer
+              <span class="at-company">@</span> Above
+            </h4>
+            <p class="small">December 2020 - February 2021</p>
+            <p>Developing a new resource booking application.</p>
+            <p>
+              <a href="https://www.above.se">www.above.se</a>
+            </p>
+            <div class="skills">
+              <span>Go</span>
+              <span>GraphQL</span>
+              <span>React</span>
+              <span>Flutter</span>
+              <span>Terraform</span>
+              <span>GCP</span>
+            </div>
+          </div>
+          <div class="experience">
+            <h4>
+              Consultant, software developer
+              <span class="at-company">@</span> Epinova AB
+            </h4>
+            <p class="small">November 2019 - November 2020</p>
+            <p>
+              Working in a team that maintains and develops a number of client
+              applications.
+            </p>
+            <p>
+              <a href="https://www.epinova.se">www.epinova.se</a>
+            </p>
+            <div class="skills">
+              <span>Episerver CMS</span>
+              <span>.NET</span>
+              <span>Vue</span>
+              <span>SASS</span>
+              <span>Architecture</span>
+            </div>
+            <div class="experience project">
+              <strong>
+                Software developer
+                <span class="at-company">@</span> Episerver AB
+              </strong>
+              <p>
+                Developing a new version of www.episerver.com. Both backend and
+                frontend.
+              </p>
+              <p>
+                <a href="https://www.episerver.com">www.episerver.com</a>
+              </p>
+              <div class="skills">
+                <span>Episerver CMS</span>
+                <span>Episerver Commerce</span>
+                <span>SASS</span>
+                <span>React</span>
+              </div>
+            </div>
+          </div>
+          <div class="experience">
+            <h4>
+              Co-founder, software developer
+              <span class="at-company">@</span> Oak - Guided Wine Tasting
+            </h4>
+            <p class="small">July 2017 - present</p>
+            <p>
+              Developing an app to enable high quality wine tastings at home,
+              guided by an experienced sommelier.
+            </p>
+            <p>
+              <a href="http://www.oak-wine.com/">www.oak-wine.com</a>
+            </p>
+            <div class="skills">
+              <span>Swift</span>
+              <span>Xcode</span>
+              <span>Google Firebase</span>
+              <span>Realm</span>
+              <span>RxSwift</span>
+            </div>
+          </div>
+          <div class="experience">
+            <h4>
+              Co-founder, software developer
+              <span class="at-company">@</span> Lingo AB
+            </h4>
+            <p class="small">September 2015 - present</p>
+            <p>Developing iPad games for children with speech disabilites.</p>
+            <p>
+              <a href="http://lingostudios.com/">www.lingostudios.com</a>
+              <a href="http://vocaplay.com/">www.vocaplay.com</a>
+            </p>
+            <div class="skills">
+              <span>Unity3D</span>
+              <span>C#</span>
+              <span>Wordpress</span>
+              <span>Adobe Illustrator</span>
+              <span>Azure</span>
+              <span>Google Firebase</span>
+            </div>
+          </div>
+          <div class="experience">
+            <h4>
+              Consultant, software developer, tech lead
+              <span class="at-company">@</span> Forefront Consulting AB
+            </h4>
+            <p class="small">October 2018 - November 2019</p>
+            <p>
+              Working in a team that maintains a number of client applications.
+              Helping and guiding junior developers.
+            </p>
+            <p>
+              <a href="http://www.ffcg.se/">www.ffcg.se</a>
+            </p>
+            <div class="skills">
+              <span>Episerver CMS</span>
+              <span>.NET</span>
+              <span>.NET Core</span>
+              <span>Architecture</span>
+              <span>Tech Lead</span>
+            </div>
+          </div>
+          <div class="experience">
+            <h4>
+              Consultant, iOS Developer
+              <span class="at-company">@</span> Bontouch AB
+            </h4>
+            <p class="small">May 2017 - May 2018</p>
+            <p>
+              Maintenance of PostNord App (Sweden, Denmark, Finland, Norway).
+            </p>
+            <div class="skills">
+              <span>Objective-C</span>
+              <span>Swift</span>
+              <span>Xcode</span>
+              <span>Bitbucket</span>
+              <span>Jira</span>
+            </div>
+          </div>
+          <div class="experience">
+            <h4>
+              Software developer
+              <span class="at-company">@</span> Forefront Consulting AB
+            </h4>
+            <p class="small">September 2013 - April 2016</p>
+            <div class="experience project">
+              <strong>
+                Software developer
+                <span class="at-company">@</span> Confederation of Swedish
+                Enterprise
+              </strong>
+              <p>
+                Developing a new web based portal to manage event invitations.
+                Front-end and back-end.
+              </p>
+              <div class="skills">
+                <span>AngularJS</span>
+                <span>ASP.NET WebAPI</span>
+                <span>C#</span>
+                <span>SQL</span>
+              </div>
+            </div>
+            <div class="experience project">
+              <h4>
+                Software developer
+                <span class="at-company">@</span> LIF Service AB
+              </h4>
+              <p>
+                Developing a new external website and member portal. Front-end
+                and back-end.
+              </p>
+              <div class="skills">
+                <span>Episerver 7+ CMS</span>
+                <span>HTML5</span>
+                <span>LESS</span>
+                <span>Target Process</span>
+                <span>C#</span>
+              </div>
+            </div>
+            <div class="experience project">
+              <h4>
+                Information architect, technical project manager
+                <span class="at-company">@</span> Teknikföretagen Sverige AB
+              </h4>
+              <p>
+                Developing a new web based inventory system. Lead a team of
+                developers in China.
+              </p>
+              <div class="skills">
+                <span>Target Process</span>
+                <span>C#</span>
+              </div>
+            </div>
+            <div class="experience project">
+              <h4>
+                Technical project manager, QA, architect
+                <span class="at-company">@</span> Svensk Handel AB
+              </h4>
+              <p>
+                Developing a new web based booking system for meeting rooms and
+                resources. Lead a team of developers in China.
+              </p>
+              <div class="skills">
+                <span>Target Process</span>
+                <span>C#</span>
+                <span>Exchange</span>
+              </div>
+            </div>
+            <div class="experience project">
+              <h4>
+                Software developer
+                <span class="at-company">@</span> Confederation of Swedish
+                Enterprise AB
+              </h4>
+              <p>Developing a new iOS application and Web API.</p>
+              <div class="skills">
+                <span>Objective-C</span>
+                <span>Xcode</span>
+                <span>ASP.NET WebAPI</span>
+                <span>Target Process</span>
+              </div>
+            </div>
+          </div>
+          <div class="experience">
+            <h4>
+              Software developer
+              <span class="at-company">@</span> Skantze Konsult och Ledarskap AB
+            </h4>
+            <p class="small">February 2012 - April 2016</p>
+            <p>
+              Developing of Ingredienslexikon, a new smartphone application for
+              individuals with food allergies.
+            </p>
+            <div class="skills">
+              <span>Objective-C</span>
+              <span>Xcode</span>
+              <span>Android</span>
+              <span>Eclipse</span>
+            </div>
+          </div>
+          <p class="last-modified">
+            Last modified:
+            <span id="last-modified-date"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    const t = new Date(document.lastModified);
+    const element = document.getElementById('last-modified-date');
+    element.innerHTML = t.toLocaleDateString();
+  </script>
 </html>
